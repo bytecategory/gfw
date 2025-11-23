@@ -6,4 +6,6 @@
 <code>mtd0.bin rootfs</code><br>
 <code>pip3 install ubi_reader</code><br>
 <code>ubireader_extract_images mtd0.bin</code><br>
-<code>unsquashfs -d ./TWWA-708G ubifs-root/mtd0.bin/img-860373306_vol-rootfs_ubifs.ubifs</code>
+<code>unsquashfs -d ./TWWA-708G ubifs-root/mtd0.bin/img-860373306_vol-rootfs_ubifs.ubifs</code><br>
+<code>tcpdump -w /.pcap</code><br>
+<code>python3 usenixsecurity23.py</code><br>
